@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Information -->
+    <string name="app_name">OSRS Planner App</string>
+    <string name="app_description">Your ultimate companion for Old School RuneScape planning and optimization</string>
+    
+    <!-- Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_xp_calculator">XP Calculator</string>
+    <string name="title_gear">Gear</string>
+    <string name="title_money_making">Money Making</string>
+    <string name="title_slayer">Slayer</string>
+    <string name="title_bosses">Bosses</string>
+    <string name="title_quests">Quests</string>
+    <string name="title_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to OSRS Planner App</string>
+    <string name="welcome_subtitle">Plan your journey, optimize your progress, and achieve your goals in Old School RuneScape</string>
+    <string name="player_stats">Player Statistics</string>
+    <string name="combat_level">Combat Level</string>
+    <string name="quick_access">Quick Access</string>
+    <string name="recent_activity">Recent Activity</string>
+    
+    <!-- Skills -->
+    <string name="combat_skills">Combat Skills</string>
+    <string name="attack">Attack</string>
+    <string name="defence">Defence</string>
+    <string name="strength">Strength</string>
+    <string name="ranged">Ranged</string>
+    <string name="magic">Magic</string>
+    <string name="prayer">Prayer</string>
+    <string name="hitpoints">Hitpoints</string>
+    
+    <!-- Feature Descriptions -->
+    <string name="gear_planner">Gear Planner</string>
+    <string name="gear_planner_desc">Find optimal gear setups for your budget and combat style</string>
+    <string name="boss_planner">Boss Planner</string>
+    <string name="boss_planner_desc">Plan boss encounters with recommended gear and strategies</string>
+    <string name="quest_planner">Quest Planner</string>
+    <string name="quest_planner_desc">Track quest progress and find optimal completion order</string>
+    <string name="pro_features">Pro Features</string>
+    <string name="pro_features_desc">Unlock advanced planning tools and detailed analytics</string>
+    
+    <!-- Gear Planning -->
+    <string name="gear_setup">Gear Setup</string>
+    <string name="budget_range">Budget Range</string>
+    <string name="combat_style">Combat Style</string>
+    <string name="melee">Melee</string>
+    <string name="ranged_combat">Ranged</string>
+    <string name="magic_combat">Magic</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="save_setup">Save Setup</string>
+    <string name="load_setup">Load Setup</string>
+    <string name="compare_setups">Compare Setups</string>
+    
+    <!-- Boss Planning -->
+    <string name="boss_encounter">Boss Encounter</string>
+    <string name="boss_difficulty">Difficulty</string>
+    <string name="boss_requirements">Requirements</string>
+    <string name="boss_strategy">Strategy</string>
+    <string name="boss_rewards">Rewards</string>
+    <string name="gp_per_hour">GP per Hour</string>
+    <string name="xp_per_hour">XP per Hour</string>
+    <string name="kill_count">Kill Count</string>
+    <string name="best_time">Best Time</string>
+    
+    <!-- Quest Planning -->
+    <string name="quest_progress">Quest Progress</string>
+    <string name="quest_requirements">Requirements</string>
+    <string name="quest_rewards">Rewards</string>
+    <string name="quest_difficulty">Difficulty</string>
+    <string name="quest_points">Quest Points</string>
+    <string name="quest_unlocks">Unlocks</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="quest_notes">Notes</string>
+    
+    <!-- Profile -->
+    <string name="player_profile">Player Profile</string>
+    <string name="username">Username</string>
+    <string name="total_level">Total Level</string>
+    <string name="skill_levels">Skill Levels</string>
+    <string name="achievements">Achievements</string>
+    <string name="settings">Settings</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="export_data">Export Data</string>
+    
+    <!-- Pro Features -->
+    <string name="pro_upgrade">Upgrade to Pro</string>
+    <string name="pro_benefits">Pro Benefits</string>
+    <string name="advanced_analytics">Advanced Analytics</string>
+    <string name="unlimited_setups">Unlimited Gear Setups</string>
+    <string name="priority_support">Priority Support</string>
+    <string name="ad_free">Ad-Free Experience</string>
+    <string name="monthly_subscription">Monthly Subscription</string>
+    <string name="yearly_subscription">Yearly Subscription</string>
+    <string name="lifetime_access">Lifetime Access</string>
+    
+    <!-- Common Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="arrow_right">Arrow Right</string>
+    
+    <!-- Notifications -->
+    <string name="notification_title">OSRS Planner App</string>
+    <string name="level_up_notification">Congratulations! You reached level %1$d in %2$s!</string>
+    <string name="quest_reminder">Don\'t forget to complete %1$s quest!</string>
+    <string name="boss_reminder">Time for your %1$s boss run!</string>
+    
+    <!-- Errors and Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_loading">Error loading data. Please try again.</string>
+    <string name="error_saving">Error saving data. Please try again.</string>
+    <string name="success_saved">Data saved successfully!</string>
+    <string name="loading">Loading...</string>
+    <string name="no_data">No data available</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Accessibility -->
+    <string name="osrs_logo">OSRS Logo</string>
+    <string name="gear_icon">Gear Icon</string>
+    <string name="boss_icon">Boss Icon</string>
+    <string name="quest_icon">Quest Icon</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="pro_icon">Pro Icon</string>
+    
+    <!-- Tooltips -->
+    <string name="tooltip_gear_optimization">Get the best gear for your budget</string>
+    <string name="tooltip_boss_strategy">Learn boss mechanics and strategies</string>
+    <string name="tooltip_quest_order">Find the optimal quest completion order</string>
+    <string name="tooltip_pro_features">Unlock advanced features</string>
+</resources> 

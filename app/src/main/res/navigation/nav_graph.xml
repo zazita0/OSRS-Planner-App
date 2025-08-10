@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.osrsplanner.app.ui.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_xp_calculator"
+        android:name="com.osrsplanner.app.ui.fragments.XP_CalculatorFragment"
+        android:label="@string/title_xp_calculator"
+        tools:layout="@layout/fragment_xp_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_gear"
+        android:name="com.osrsplanner.app.ui.fragments.GearPlannerFragment"
+        android:label="@string/title_gear"
+        tools:layout="@layout/fragment_gear_planner" />
+
+    <fragment
+        android:id="@+id/navigation_money_making"
+        android:name="com.osrsplanner.app.ui.fragments.MoneyMakingFragment"
+        android:label="@string/title_money_making"
+        tools:layout="@layout/fragment_money_making" />
+
+    <fragment
+        android:id="@+id/navigation_slayer"
+        android:name="com.osrsplanner.app.ui.fragments.SlayerFragment"
+        android:label="@string/title_slayer"
+        tools:layout="@layout/fragment_slayer" />
+
+    <fragment
+        android:id="@+id/navigation_bosses"
+        android:name="com.osrsplanner.app.ui.fragments.BossPlannerFragment"
+        android:label="@string/title_bosses"
+        tools:layout="@layout/fragment_boss_planner" />
+
+    <fragment
+        android:id="@+id/navigation_quests"
+        android:name="com.osrsplanner.app.ui.fragments.QuestPlannerFragment"
+        android:label="@string/title_quests"
+        tools:layout="@layout/fragment_quest_planner" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.osrsplanner.app.ui.fragments.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation> 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_xp_calculator"
+        android:icon="@drawable/ic_xp_calculator"
+        android:title="@string/title_xp_calculator" />
+
+    <item
+        android:id="@+id/navigation_gear"
+        android:icon="@drawable/ic_gear"
+        android:title="@string/title_gear" />
+
+    <item
+        android:id="@+id/navigation_money_making"
+        android:icon="@drawable/ic_money_making"
+        android:title="@string/title_money_making" />
+
+    <item
+        android:id="@+id/navigation_slayer"
+        android:icon="@drawable/ic_slayer"
+        android:title="@string/title_slayer" />
+
+    <item
+        android:id="@+id/navigation_bosses"
+        android:icon="@drawable/ic_boss"
+        android:title="@string/title_bosses" />
+
+    <item
+        android:id="@+id/navigation_quests"
+        android:icon="@drawable/ic_quest"
+        android:title="@string/title_quests" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile" />
+
+</menu> 

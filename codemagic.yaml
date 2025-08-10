@@ -1,0 +1,21 @@
+workflows:
+  android_debug:
+    name: Android Debug Build
+    max_build_duration: 60
+    environment:
+      android:
+        java: 17
+    scripts:
+      - name: Make gradlew executable
+        script: chmod +x gradlew
+      - name: Assemble debug
+        script: ./gradlew --no-daemon :app:assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
+    publishing:
+      email:
+        recipients:
+          - YOUR_EMAIL_HERE
+        notify:
+          success: true
+          failure: true
